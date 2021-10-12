@@ -25,7 +25,7 @@ This script is able to plot, and analyze FTIR data. It relies on [scipy](https:/
 9. Deconvolute your peaks of interest by using many different distribution shapes or combination of them and it will plot the obtained trends with respect to the time or temperature.
 10. Analyze excitation emission spectroscopy IR experiments that use a synusoidal perturbation.
 
-A detailed Explanation of the script and of all the keys is reported into the jupyter notebook.\
+A detailed Explanation of the script and of all the keys is reported into the jupyter notebook.
 
 
 Future implementations:
