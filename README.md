@@ -17,7 +17,7 @@ This script is able to plot, and analyze FTIR data. It relies on [scipy](https:/
 1. Read and subtract the CSV catalyst spectrum from the catalyst + molecule and plot the results.
 2. Work with data collected with respect to time on stream (days, h, min, s) or with respect to temperature (℃ or K).
 3. Remove outliers due to instrumental noise (the spectrum increase over a certain threshold)
-4. Remove all the wavenumber that do not have any information, usually over 4000 and lower than 1000 cm$^{-1}$.
+4. Remove all the wavenumber that do not have any information, usually over 4000 and lower than 1000 cm<sup>-1</sup>.
 5. Remove the baseline by using the Asymmetric Least Square Smoothing with the most commonly used default settings.
 6. Find the peaks on your spectrum and plot their wavenumber on the figure
 7. Subtract a specific temperature or time spectrum from other spectra of your choice and save the results in CSV files.
@@ -28,7 +28,7 @@ This script is able to plot, and analyze FTIR data. It relies on [scipy](https:/
 A detailed Explanation of the script and of all the keys is reported into the jupyter notebook.
 
 
-Future implementations:
+Future implementations (that may or may be not added):
 
-1. it would be nice being able to implement the atmospheric suppression into the code. It should be failrly easy to code. It would be necessary to get the H$_2$O vapor and the CO$_2$ vapor spectra from the NIST. Make sure that the number of data points for those spectra is the same than the experimental spectra. Convolute the CO$_2$ and H$_2$O spectra by using a linear combination. minimize such convolution and then removed the minimized H$_2$O and CO$_2$ spectrum. I think this is also what omnic does when it remove H$_2$O and CO$_2$ with atmospheric suppression.
+1. it would be nice being able to implement the atmospheric suppression into the code. It should be failrly easy to code. It would be necessary to get the H<sub>_2</sub>O vapor and the CO<sub>_2</sub> vapor spectra from the NIST. Make sure that the number of data points for those spectra is the same than the experimental spectra. Convolute the CO<sub>_2</sub> and H<sub>_2</sub>O spectra by using a linear combination. minimize such convolution and then removed the minimized H<sub>_2</sub>O and CO<sub>_2</sub> spectrum. I think this is also what omnic does when it remove H<sub>_2</sub>O and CO<sub>_2</sub> with atmospheric suppression.
 2. Adding the possibility of analyzing MES-PSD data that use a non synusoidal perturbation.
