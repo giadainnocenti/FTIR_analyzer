@@ -1,0 +1,5 @@
+MES-PSD experimental settings:
+sampling = 30 seconds
+time_per_scan = 21 seconds
+time_per_period = 1800 seconds
+remove_loops = 2
