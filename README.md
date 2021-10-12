@@ -6,7 +6,6 @@ __credits__ = Dr. *Juliana Silva Alves Carneiro*, *Bryan J. Hare* for reporting 
 *Flaherty's Laboratory* for coding the OG PSD part of this script.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [*NIRPY Research*](https://nirpyresearch.com) for the MSC code.\
-__maintainer__ = Dr. *Giada Innocenti*  \
 __email__ = giadainnocenti.gi@gmail.com \
 __Python__ = 3.8.5
 __________________________________________________________________________________
