@@ -1,7 +1,7 @@
 # FTIR_analyzer
 ___________________________________________________________________________________
 __author__ = Dr. *Giada Innocenti* \
-__credits__ = *Dr. Juliana Silva Alves Carneiro*, *Bryan J. Hare* for reporting some bugs.\
+__credits__ = Dr. *Juliana Silva Alves Carneiro*, *Bryan J. Hare* for reporting some bugs.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 *Flaherty's Laboratory* for coding the OG PSD part of this script.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
