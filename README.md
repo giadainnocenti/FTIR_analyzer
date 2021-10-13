@@ -27,7 +27,8 @@ This script is able to plot, and analyze Fourier Transform Infrared Spectroscopy
 A detailed Explanation of the script and of all the keys is reported into the jupyter notebook.
 
 
-Future implementations (that may or may not be  added by the author):
+### Future implementations 
+(that may or may not be  added by the author)
 
 1. it would be nice being able to implement the atmospheric suppression into the code. It should be fairly easy to code. It would be necessary to get the H<sub>2</sub>O vapor and the CO<sub>2</sub> vapor spectra from the NIST. Make sure that the number of data points for those spectra is the same than the experimental spectra. Convolute the CO<sub>2</sub> and H<sub>2</sub>O spectra by using a linear combination. Minimize such convolution and then removed the minimized H<sub>2</sub>O and CO<sub>2</sub> spectrum. I think this is also what omnic does when it remove H<sub>2</sub>O and CO<sub>2</sub> with atmospheric suppression.
 2. Adding the possibility of analyzing MES-PSD data that use a non synusoidal perturbation.
