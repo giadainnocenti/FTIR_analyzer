@@ -816,6 +816,8 @@ def peak_fitting(wavenumber, absorbance, peaks, peak_shape=None, baseline_type=N
     axes[0].set_ylabel('Absorbance (AU)')
     axes[0].legend(loc='best')
     axes[0].set_xlim(wavenumber[-1],wavenumber[0])
+    df_best_fit = pd.DataFrame({'Wavenumber (cm-1)':wavenumber,
+                                'Best fit (AU)': out.best_fit})
     #plotting each component curve under the experimental curve.
     comps = out.eval_components(x=wavenumber)
     axes[1].plot(wavenumber, absorbance, 'b')
@@ -829,6 +831,8 @@ def peak_fitting(wavenumber, absorbance, peaks, peak_shape=None, baseline_type=N
                      '--',c=c, label=f'{peak_shape[index]} component {index}')
         areas += [out.params[f'{mod_prefix[index].casefold()}_amplitude'].value]
         peak_positions += [out.params[f'{mod_prefix[index].casefold()}_center'].value]
+        df_best_fit[f'{peak_shape[index]} component {index} (AU)'] = comps[f'{mod_prefix[index].casefold()}_']
+    
 
     axes[1].plot(wavenumber, comps[prefix], 'k--', label='baseline')
     axes[1].legend(loc='best')
@@ -839,7 +843,7 @@ def peak_fitting(wavenumber, absorbance, peaks, peak_shape=None, baseline_type=N
     time_counter+=1
 
     log_file.close()
-    return(areas, peak_positions)
+    return(areas, peak_positions,df_best_fit)
 
 #convert the nested dictionaries obtained with the peak fitting function in a pandas dataframe
 def from_dict_to_df(dictionary,time, resolution = 4):

@@ -1,0 +1,1244 @@
+Peak fitting for Temperature 50.0 $^\circ$CPeak fitting started at 2021-10-13 10:09:27.909853[[Model]]
+    (((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 777
+    # data points      = 467
+    # variables        = 14
+    chi-square         = 0.00689781
+    reduced chi-square = 1.5227e-05
+    Akaike info crit   = -5166.38494
+    Bayesian info crit = -5108.33633
+##  Warning: uncertainties could not be estimated:
+    sl0_center:     at boundary
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+[[Variables]]
+    exp_amplitude:  0.03092462 (init = 0.03583313)
+    exp_decay:     -1628.35054 (init = -1704.075)
+    sl0_amplitude:  6.83432104 (init = 10)
+    sl0_center:     2966.00000 (init = 2950)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    13.6044697 (init = 1)
+    sl0_fwhm:       43.6044697 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.09978023 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  6.71052012 (init = 10)
+    sl1_center:     2875.99998 (init = 2860)
+    sl1_sigma:      23.7131196 (init = 15)
+    sl1_sigma_r:    63.8162998 (init = 1)
+    sl1_fwhm:       87.5294194 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04880702 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  1.4988e-08 (init = 10)
+    sl2_center:     2811.33684 (init = 2810)
+    sl2_sigma:      4.10794187 (init = 15)
+    sl2_sigma_r:    3.65464702 (init = 1)
+    sl2_fwhm:       7.76258890 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     1.2292e-09 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'Peak fitting for Temperature 100.0 $^\circ$CPeak fitting started at 2021-10-13 10:09:28.400231[[Model]]
+    (((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 1946
+    # data points      = 467
+    # variables        = 14
+    chi-square         = 0.00795334
+    reduced chi-square = 1.7557e-05
+    Akaike info crit   = -5099.88980
+    Bayesian info crit = -5041.84120
+##  Warning: uncertainties could not be estimated:
+    sl0_center:     at boundary
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+[[Variables]]
+    exp_amplitude:  0.02770665 (init = 0.03344871)
+    exp_decay:     -1698.64391 (init = -1819.163)
+    sl0_amplitude:  6.30220819 (init = 10)
+    sl0_center:     2965.99999 (init = 2950)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    12.0014695 (init = 1)
+    sl0_fwhm:       42.0014695 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.09552309 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  6.17769133 (init = 10)
+    sl1_center:     2875.99994 (init = 2860)
+    sl1_sigma:      23.5549704 (init = 15)
+    sl1_sigma_r:    58.3008394 (init = 1)
+    sl1_fwhm:       81.8558097 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04804595 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  1.1990e-07 (init = 10)
+    sl2_center:     2808.89842 (init = 2810)
+    sl2_sigma:      6.85937764 (init = 15)
+    sl2_sigma_r:    2.37508092 (init = 1)
+    sl2_fwhm:       9.23445856 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     8.2661e-09 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'Peak fitting for Temperature 150.0 $^\circ$CPeak fitting started at 2021-10-13 10:09:29.150815[[Model]]
+    (((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 2689
+    # data points      = 467
+    # variables        = 14
+    chi-square         = 0.00830584
+    reduced chi-square = 1.8335e-05
+    Akaike info crit   = -5079.63785
+    Bayesian info crit = -5021.58924
+##  Warning: uncertainties could not be estimated:
+    sl0_center:     at boundary
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+[[Variables]]
+    exp_amplitude:  0.02355053 (init = 0.02927266)
+    exp_decay:     -1669.71137 (init = -1810.384)
+    sl0_amplitude:  5.97804696 (init = 10)
+    sl0_center:     2965.99998 (init = 2950)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    11.1917531 (init = 1)
+    sl0_fwhm:       41.1917531 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.09239089 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  6.14423565 (init = 10)
+    sl1_center:     2875.99938 (init = 2860)
+    sl1_sigma:      23.7574702 (init = 15)
+    sl1_sigma_r:    58.2891771 (init = 1)
+    sl1_fwhm:       82.0466473 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04767461 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  8.8263e-08 (init = 10)
+    sl2_center:     2808.88854 (init = 2810)
+    sl2_sigma:      7.29900061 (init = 15)
+    sl2_sigma_r:    2.20468954 (init = 1)
+    sl2_fwhm:       9.50369015 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     5.9124e-09 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'Peak fitting for Temperature 200.0 $^\circ$CPeak fitting started at 2021-10-13 10:09:30.043824[[Model]]
+    (((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 4136
+    # data points      = 467
+    # variables        = 14
+    chi-square         = 0.00897036
+    reduced chi-square = 1.9802e-05
+    Akaike info crit   = -5043.69401
+    Bayesian info crit = -4985.64540
+##  Warning: uncertainties could not be estimated:
+    sl0_center:     at boundary
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+[[Variables]]
+    exp_amplitude:  0.02210273 (init = 0.027992)
+    exp_decay:     -1689.20768 (init = -1849.53)
+    sl0_amplitude:  5.66733774 (init = 10)
+    sl0_center:     2965.99981 (init = 2950)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    10.4632477 (init = 1)
+    sl0_fwhm:       40.4632477 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.08916583 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  6.23802814 (init = 10)
+    sl1_center:     2876.00000 (init = 2860)
+    sl1_sigma:      23.7703514 (init = 15)
+    sl1_sigma_r:    59.2128820 (init = 1)
+    sl1_fwhm:       82.9832335 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04785608 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  1.4322e-07 (init = 10)
+    sl2_center:     2809.55054 (init = 2810)
+    sl2_sigma:      6.13018522 (init = 15)
+    sl2_sigma_r:    2.39329923 (init = 1)
+    sl2_fwhm:       8.52348445 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     1.0697e-08 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'Peak fitting for Temperature 250.0 $^\circ$CPeak fitting started at 2021-10-13 10:09:31.314544[[Model]]
+    (((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 9210
+    # data points      = 467
+    # variables        = 14
+    chi-square         = 0.00928813
+    reduced chi-square = 2.0504e-05
+    Akaike info crit   = -5027.43698
+    Bayesian info crit = -4969.38837
+##  Warning: uncertainties could not be estimated:
+    sl0_center:     at boundary
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+[[Variables]]
+    exp_amplitude:  0.01960430 (init = 0.02546408)
+    exp_decay:     -1671.85400 (init = -1849.817)
+    sl0_amplitude:  5.39955373 (init = 10)
+    sl0_center:     2965.97578 (init = 2950)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    9.81479815 (init = 1)
+    sl0_fwhm:       39.8147981 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.08633631 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  6.38651469 (init = 10)
+    sl1_center:     2876.00000 (init = 2860)
+    sl1_sigma:      24.0815270 (init = 15)
+    sl1_sigma_r:    60.3136091 (init = 1)
+    sl1_fwhm:       84.3951361 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04817554 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  1.2823e-07 (init = 10)
+    sl2_center:     2810.18629 (init = 2810)
+    sl2_sigma:      4.56037407 (init = 15)
+    sl2_sigma_r:    2.25764110 (init = 1)
+    sl2_fwhm:       6.81801517 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     1.1973e-08 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'Peak fitting for Temperature 50.0 $^\circ$CPeak fitting started at 2021-10-13 10:21:24.448936[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 6146
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00581384
+    reduced chi-square = 1.2948e-05
+    Akaike info crit   = -5238.22501
+    Bayesian info crit = -5163.59108
+##  Warning: uncertainties could not be estimated:
+    sl0_sigma:      at boundary
+    sl2_center:     at boundary
+    sl3_sigma:      at boundary
+[[Variables]]
+    exp_amplitude:  0.03108512 (init = 0.03583313)
+    exp_decay:     -1632.12567 (init = -1704.075)
+    sl0_amplitude:  6.38557763 (init = 10)
+    sl0_center:     2968.60583 (init = 2980)
+    sl0_sigma:      29.9999999 (init = 15)
+    sl0_sigma_r:    11.0075420 (init = 1)
+    sl0_fwhm:       41.0075420 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.09913262 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  0.71423283 (init = 10)
+    sl1_center:     2872.71035 (init = 2860)
+    sl1_sigma:      17.9229620 (init = 15)
+    sl1_sigma_r:    2.85415774 (init = 1)
+    sl1_fwhm:       20.7771197 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.02188440 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  5.83745703 (init = 10)
+    sl2_center:     2886.00000 (init = 2870)
+    sl2_sigma:      17.7483807 (init = 15)
+    sl2_sigma_r:    63.9413147 (init = 1)
+    sl2_fwhm:       81.6896955 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.04549216 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  0.41339048 (init = 10)
+    sl3_center:     2824.62245 (init = 2820)
+    sl3_sigma:      4.00000000 (init = 15)
+    sl3_sigma_r:    38.9943580 (init = 1)
+    sl3_fwhm:       42.9943580 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     0.00612109 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 100.0 $^\circ$CPeak fitting started at 2021-10-13 10:21:26.801036[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 4095
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00768479
+    reduced chi-square = 1.7115e-05
+    Akaike info crit   = -5107.93103
+    Bayesian info crit = -5033.29710
+##  Warning: uncertainties could not be estimated:
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+    sl3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.02786922 (init = 0.03344871)
+    exp_decay:     -1704.26378 (init = -1819.163)
+    sl0_amplitude:  6.02176392 (init = 10)
+    sl0_center:     2967.71865 (init = 2980)
+    sl0_sigma:      29.9999990 (init = 15)
+    sl0_sigma_r:    10.1935163 (init = 1)
+    sl0_fwhm:       40.1935153 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.09537792 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  6.35492156 (init = 10)
+    sl1_center:     2876.00000 (init = 2860)
+    sl1_sigma:      21.9204629 (init = 15)
+    sl1_sigma_r:    62.6012830 (init = 1)
+    sl1_fwhm:       84.5217459 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04786542 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  0.12781362 (init = 10)
+    sl2_center:     2870.59726 (init = 2870)
+    sl2_sigma:      23.1346613 (init = 15)
+    sl2_sigma_r:    1.67693106 (init = 1)
+    sl2_fwhm:       24.8115923 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.00327946 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  5.5511e-10 (init = 10)
+    sl3_center:     2819.07545 (init = 2820)
+    sl3_sigma:      14.1826795 (init = 15)
+    sl3_sigma_r:    2.08707018 (init = 1)
+    sl3_fwhm:       16.2697497 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     2.1721e-11 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 150.0 $^\circ$CPeak fitting started at 2021-10-13 10:21:28.446755[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 18984
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00750846
+    reduced chi-square = 1.6723e-05
+    Akaike info crit   = -5118.77146
+    Bayesian info crit = -5044.13754
+##  Warning: uncertainties could not be estimated:
+    sl0_sigma:      at boundary
+    sl2_center:     at boundary
+    sl3_sigma:      at boundary
+[[Variables]]
+    exp_amplitude:  0.02364712 (init = 0.02927266)
+    exp_decay:     -1672.09519 (init = -1810.384)
+    sl0_amplitude:  5.80632420 (init = 10)
+    sl0_center:     2967.30313 (init = 2980)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    10.1042087 (init = 1)
+    sl0_fwhm:       40.1042087 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.09217039 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  0.72768272 (init = 10)
+    sl1_center:     2872.48440 (init = 2860)
+    sl1_sigma:      18.0189024 (init = 15)
+    sl1_sigma_r:    3.01509222 (init = 1)
+    sl1_fwhm:       21.0339947 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.02202421 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  5.02447275 (init = 10)
+    sl2_center:     2886.00000 (init = 2870)
+    sl2_sigma:      18.1438608 (init = 15)
+    sl2_sigma_r:    55.2346077 (init = 1)
+    sl2_fwhm:       73.3784685 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.04359152 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  0.31026904 (init = 10)
+    sl3_center:     2828.60809 (init = 2820)
+    sl3_sigma:      4.00000000 (init = 15)
+    sl3_sigma_r:    31.1217172 (init = 1)
+    sl3_fwhm:       35.1217172 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     0.00562397 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 200.0 $^\circ$CPeak fitting started at 2021-10-13 10:21:35.001934[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 1308
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00831667
+    reduced chi-square = 1.8523e-05
+    Akaike info crit   = -5071.02904
+    Bayesian info crit = -4996.39511
+##  Warning: uncertainties could not be estimated:
+    sl0_sigma:      at boundary
+    sl2_center:     at boundary
+    sl3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.02198902 (init = 0.027992)
+    exp_decay:     -1683.28682 (init = -1849.53)
+    sl0_amplitude:  5.58190431 (init = 10)
+    sl0_center:     2966.74844 (init = 2980)
+    sl0_sigma:      29.9999993 (init = 15)
+    sl0_sigma_r:    9.98657882 (init = 1)
+    sl0_fwhm:       39.9865781 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.08886858 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  0.80453736 (init = 10)
+    sl1_center:     2872.20278 (init = 2860)
+    sl1_sigma:      22.3380136 (init = 15)
+    sl1_sigma_r:    2.89535906 (init = 1)
+    sl1_fwhm:       25.2333727 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.02029790 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  5.34277883 (init = 10)
+    sl2_center:     2886.00000 (init = 2870)
+    sl2_sigma:      20.8021697 (init = 15)
+    sl2_sigma_r:    54.7681585 (init = 1)
+    sl2_fwhm:       75.5703283 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.04500865 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  5.5511e-10 (init = 10)
+    sl3_center:     2817.14536 (init = 2820)
+    sl3_sigma:      5.15941238 (init = 15)
+    sl3_sigma_r:    4.84166594 (init = 1)
+    sl3_fwhm:       10.0010783 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     3.5336e-11 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 250.0 $^\circ$CPeak fitting started at 2021-10-13 10:21:35.678092[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 1572
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00862273
+    reduced chi-square = 1.9204e-05
+    Akaike info crit   = -5054.15203
+    Bayesian info crit = -4979.51810
+##  Warning: uncertainties could not be estimated:
+    sl0_sigma:      at boundary
+    sl2_center:     at boundary
+    sl3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.01947187 (init = 0.02546408)
+    exp_decay:     -1664.36625 (init = -1849.817)
+    sl0_amplitude:  5.39818839 (init = 10)
+    sl0_center:     2966.12363 (init = 2980)
+    sl0_sigma:      29.9999997 (init = 15)
+    sl0_sigma_r:    9.94221154 (init = 1)
+    sl0_fwhm:       39.9422113 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.08603914 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  0.81551668 (init = 10)
+    sl1_center:     2872.08668 (init = 2860)
+    sl1_sigma:      22.6357310 (init = 15)
+    sl1_sigma_r:    2.83584946 (init = 1)
+    sl1_fwhm:       25.4715805 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.02038248 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  5.37623268 (init = 10)
+    sl2_center:     2886.00000 (init = 2870)
+    sl2_sigma:      20.9566258 (init = 15)
+    sl2_sigma_r:    54.7656230 (init = 1)
+    sl2_fwhm:       75.7222488 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.04519961 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  5.5511e-10 (init = 10)
+    sl3_center:     2817.34346 (init = 2820)
+    sl3_sigma:      4.97275784 (init = 15)
+    sl3_sigma_r:    4.82574071 (init = 1)
+    sl3_fwhm:       9.79849855 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     3.6066e-11 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 50.0 $^\circ$CPeak fitting started at 2021-10-13 10:23:47.074908[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 6432
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00581381
+    reduced chi-square = 1.2948e-05
+    Akaike info crit   = -5238.22684
+    Bayesian info crit = -5163.59292
+##  Warning: uncertainties could not be estimated:
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+    sl3_sigma:      at boundary
+[[Variables]]
+    exp_amplitude:  0.03108590 (init = 0.03583313)
+    exp_decay:     -1632.14705 (init = -1704.075)
+    sl0_amplitude:  6.38567195 (init = 10)
+    sl0_center:     2968.60562 (init = 2980)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    11.0075124 (init = 1)
+    sl0_fwhm:       41.0075124 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.09913415 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  5.83442665 (init = 10)
+    sl1_center:     2886.00000 (init = 2870)
+    sl1_sigma:      17.7452745 (init = 15)
+    sl1_sigma_r:    63.9399535 (init = 1)
+    sl1_fwhm:       81.6852280 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04547103 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  0.71337457 (init = 10)
+    sl2_center:     2872.71534 (init = 2860)
+    sl2_sigma:      17.9179229 (init = 15)
+    sl2_sigma_r:    2.85079897 (init = 1)
+    sl2_fwhm:       20.7687218 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.02186694 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  0.41710414 (init = 10)
+    sl3_center:     2824.60531 (init = 2810)
+    sl3_sigma:      4.00000000 (init = 15)
+    sl3_sigma_r:    39.3815478 (init = 1)
+    sl3_fwhm:       43.3815478 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     0.00612096 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 100.0 $^\circ$CPeak fitting started at 2021-10-13 10:23:49.423672[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 2008
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00719258
+    reduced chi-square = 1.6019e-05
+    Akaike info crit   = -5138.84319
+    Bayesian info crit = -5064.20927
+##  Warning: uncertainties could not be estimated:
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+[[Variables]]
+    exp_amplitude:  0.02758618 (init = 0.03344871)
+    exp_decay:     -1693.87521 (init = -1819.163)
+    sl0_amplitude:  6.04361575 (init = 10)
+    sl0_center:     2967.77849 (init = 2980)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    10.4361488 (init = 1)
+    sl0_fwhm:       40.4361488 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.09514965 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  5.54115631 (init = 10)
+    sl1_center:     2886.00000 (init = 2870)
+    sl1_sigma:      21.3039820 (init = 15)
+    sl1_sigma_r:    56.1741909 (init = 1)
+    sl1_fwhm:       77.4781729 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04553037 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  0.78163068 (init = 10)
+    sl2_center:     2874.07068 (init = 2860)
+    sl2_sigma:      23.5670563 (init = 15)
+    sl2_sigma_r:    2.02161089 (init = 1)
+    sl2_fwhm:       25.5886671 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.01944617 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  1.3323e-08 (init = 10)
+    sl3_center:     2811.81289 (init = 2810)
+    sl3_sigma:      4.65379068 (init = 15)
+    sl3_sigma_r:    3.38055118 (init = 1)
+    sl3_fwhm:       8.03434186 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     1.0557e-09 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 150.0 $^\circ$CPeak fitting started at 2021-10-13 10:23:50.390789[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 2503
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00762435
+    reduced chi-square = 1.6981e-05
+    Akaike info crit   = -5111.61858
+    Bayesian info crit = -5036.98465
+##  Warning: uncertainties could not be estimated:
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+    sl3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.02346093 (init = 0.02927266)
+    exp_decay:     -1665.31966 (init = -1810.384)
+    sl0_amplitude:  5.80575966 (init = 10)
+    sl0_center:     2967.30817 (init = 2980)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    10.1251176 (init = 1)
+    sl0_fwhm:       40.1251176 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.09211341 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  5.34914630 (init = 10)
+    sl1_center:     2885.99998 (init = 2870)
+    sl1_sigma:      20.8650645 (init = 15)
+    sl1_sigma_r:    55.1795814 (init = 1)
+    sl1_fwhm:       76.0446459 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04478122 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  0.81118270 (init = 10)
+    sl2_center:     2872.48615 (init = 2860)
+    sl2_sigma:      22.4952833 (init = 15)
+    sl2_sigma_r:    2.94856727 (init = 1)
+    sl2_fwhm:       25.4438505 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.02029626 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  5.5511e-10 (init = 10)
+    sl3_center:     2809.29751 (init = 2810)
+    sl3_sigma:      9.28199350 (init = 15)
+    sl3_sigma_r:    2.26061796 (init = 1)
+    sl3_fwhm:       11.5426115 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     3.0617e-11 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 200.0 $^\circ$CPeak fitting started at 2021-10-13 10:23:51.469305[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 2848
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00831668
+    reduced chi-square = 1.8523e-05
+    Akaike info crit   = -5071.02861
+    Bayesian info crit = -4996.39469
+##  Warning: uncertainties could not be estimated:
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+[[Variables]]
+    exp_amplitude:  0.02198876 (init = 0.027992)
+    exp_decay:     -1683.26385 (init = -1849.53)
+    sl0_amplitude:  5.58371568 (init = 10)
+    sl0_center:     2966.74489 (init = 2980)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    9.99202267 (init = 1)
+    sl0_fwhm:       39.9920227 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.08888532 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  5.33939671 (init = 10)
+    sl1_center:     2885.99999 (init = 2870)
+    sl1_sigma:      20.8005926 (init = 15)
+    sl1_sigma_r:    54.7214586 (init = 1)
+    sl1_fwhm:       75.5220512 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04500891 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  0.80425070 (init = 10)
+    sl2_center:     2872.19166 (init = 2860)
+    sl2_sigma:      22.3205324 (init = 15)
+    sl2_sigma_r:    2.90253156 (init = 1)
+    sl2_fwhm:       25.2230640 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.02029896 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  2.1316e-07 (init = 10)
+    sl3_center:     2809.38104 (init = 2810)
+    sl3_sigma:      9.13423718 (init = 15)
+    sl3_sigma_r:    2.29000840 (init = 1)
+    sl3_fwhm:       11.4242456 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     1.1879e-08 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 250.0 $^\circ$CPeak fitting started at 2021-10-13 10:23:52.652521[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 3477
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00862273
+    reduced chi-square = 1.9204e-05
+    Akaike info crit   = -5054.15194
+    Bayesian info crit = -4979.51801
+##  Warning: uncertainties could not be estimated:
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+[[Variables]]
+    exp_amplitude:  0.01947216 (init = 0.02546408)
+    exp_decay:     -1664.37478 (init = -1849.817)
+    sl0_amplitude:  5.39873865 (init = 10)
+    sl0_center:     2966.12236 (init = 2980)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    9.94390661 (init = 1)
+    sl0_fwhm:       39.9439066 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.08604426 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  5.37479116 (init = 10)
+    sl1_center:     2886.00000 (init = 2870)
+    sl1_sigma:      20.9529571 (init = 15)
+    sl1_sigma_r:    54.7546048 (init = 1)
+    sl1_fwhm:       75.7075619 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04519626 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  0.81569494 (init = 10)
+    sl2_center:     2872.07704 (init = 2860)
+    sl2_sigma:      22.6245001 (init = 15)
+    sl2_sigma_r:    2.84564136 (init = 1)
+    sl2_fwhm:       25.4701414 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.02038809 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  6.3838e-08 (init = 10)
+    sl3_center:     2809.15202 (init = 2810)
+    sl3_sigma:      9.79578419 (init = 15)
+    sl3_sigma_r:    2.09358230 (init = 1)
+    sl3_fwhm:       11.8893665 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     3.4182e-09 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 50.0 $^\circ$CPeak fitting started at 2021-10-13 10:25:20.958024[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 2907
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00845169
+    reduced chi-square = 1.8823e-05
+    Akaike info crit   = -5063.50859
+    Bayesian info crit = -4988.87467
+##  Warning: uncertainties could not be estimated:
+    sl0_center:     at boundary
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+    sl3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.03120162 (init = 0.03583313)
+    exp_decay:     -1637.79743 (init = -1704.075)
+    sl0_amplitude:  5.38831026 (init = 10)
+    sl0_center:     2974.00000 (init = 2990)
+    sl0_sigma:      29.9999987 (init = 15)
+    sl0_sigma_r:    5.97163087 (init = 1)
+    sl0_fwhm:       35.9716295 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.09536140 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  7.90205716 (init = 10)
+    sl1_center:     2886.00000 (init = 2870)
+    sl1_sigma:      22.0682053 (init = 15)
+    sl1_sigma_r:    76.4867573 (init = 1)
+    sl1_fwhm:       98.5549626 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.05104366 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  0.71457308 (init = 10)
+    sl2_center:     2872.74548 (init = 2860)
+    sl2_sigma:      24.3425319 (init = 15)
+    sl2_sigma_r:    2.15734792 (init = 1)
+    sl2_fwhm:       26.4998798 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.01716654 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  5.5511e-10 (init = 10)
+    sl3_center:     2808.75008 (init = 2810)
+    sl3_sigma:      13.4506278 (init = 15)
+    sl3_sigma_r:    2.06392422 (init = 1)
+    sl3_fwhm:       15.5145520 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     2.2778e-11 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 100.0 $^\circ$CPeak fitting started at 2021-10-13 10:25:22.225064[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 2678
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.01042802
+    reduced chi-square = 2.3225e-05
+    Akaike info crit   = -4965.37777
+    Bayesian info crit = -4890.74384
+##  Warning: uncertainties could not be estimated:
+    sl0_center:     at boundary
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+    sl3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.02796337 (init = 0.03344871)
+    exp_decay:     -1708.89507 (init = -1819.163)
+    sl0_amplitude:  4.98910960 (init = 10)
+    sl0_center:     2974.00000 (init = 2990)
+    sl0_sigma:      29.9999986 (init = 15)
+    sl0_sigma_r:    4.92300631 (init = 1)
+    sl0_fwhm:       34.9230049 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.09094767 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  7.10004807 (init = 10)
+    sl1_center:     2886.00000 (init = 2870)
+    sl1_sigma:      21.9398407 (init = 15)
+    sl1_sigma_r:    69.1655710 (init = 1)
+    sl1_fwhm:       91.1054117 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04961320 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  0.70883632 (init = 10)
+    sl2_center:     2872.82889 (init = 2860)
+    sl2_sigma:      23.4966021 (init = 15)
+    sl2_sigma_r:    2.22304498 (init = 1)
+    sl2_fwhm:       25.7196471 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.01754531 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  5.5511e-10 (init = 10)
+    sl3_center:     2808.80085 (init = 2810)
+    sl3_sigma:      13.1044187 (init = 15)
+    sl3_sigma_r:    1.98396237 (init = 1)
+    sl3_fwhm:       15.0883811 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     2.3422e-11 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 150.0 $^\circ$CPeak fitting started at 2021-10-13 10:25:23.432623[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 2414
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.01117929
+    reduced chi-square = 2.4898e-05
+    Akaike info crit   = -4932.88988
+    Bayesian info crit = -4858.25595
+##  Warning: uncertainties could not be estimated:
+    sl0_center:     at boundary
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+    sl3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.02380332 (init = 0.02927266)
+    exp_decay:     -1681.00437 (init = -1810.384)
+    sl0_amplitude:  4.72804822 (init = 10)
+    sl0_center:     2974.00000 (init = 2990)
+    sl0_sigma:      30.0000000 (init = 15)
+    sl0_sigma_r:    4.33962915 (init = 1)
+    sl0_fwhm:       34.3396291 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.08765292 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  6.96362655 (init = 10)
+    sl1_center:     2886.00000 (init = 2870)
+    sl1_sigma:      21.8234883 (init = 15)
+    sl1_sigma_r:    68.0972564 (init = 1)
+    sl1_fwhm:       89.9207447 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04930100 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  0.71561275 (init = 10)
+    sl2_center:     2872.50370 (init = 2860)
+    sl2_sigma:      23.1463043 (init = 15)
+    sl2_sigma_r:    2.21332954 (init = 1)
+    sl2_fwhm:       25.3596338 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.01796450 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  5.5511e-10 (init = 10)
+    sl3_center:     2808.80471 (init = 2810)
+    sl3_sigma:      12.6596502 (init = 15)
+    sl3_sigma_r:    1.96768827 (init = 1)
+    sl3_fwhm:       14.6273385 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     2.4160e-11 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 200.0 $^\circ$CPeak fitting started at 2021-10-13 10:25:24.497955[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 3139
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.01219666
+    reduced chi-square = 2.7164e-05
+    Akaike info crit   = -4892.21467
+    Bayesian info crit = -4817.58074
+##  Warning: uncertainties could not be estimated:
+    sl0_center:     at boundary
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+    sl3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.02235073 (init = 0.027992)
+    exp_decay:     -1701.27243 (init = -1849.53)
+    sl0_amplitude:  4.47304702 (init = 10)
+    sl0_center:     2974.00000 (init = 2990)
+    sl0_sigma:      29.9999998 (init = 15)
+    sl0_sigma_r:    3.84793296 (init = 1)
+    sl0_fwhm:       33.8479328 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.08413010 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  6.98614406 (init = 10)
+    sl1_center:     2886.00000 (init = 2870)
+    sl1_sigma:      21.6684048 (init = 15)
+    sl1_sigma_r:    67.5501268 (init = 1)
+    sl1_fwhm:       89.2185317 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.04984970 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  0.71148333 (init = 10)
+    sl2_center:     2872.33969 (init = 2860)
+    sl2_sigma:      23.1430235 (init = 15)
+    sl2_sigma_r:    2.05139847 (init = 1)
+    sl2_fwhm:       25.1944220 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.01797796 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  5.5511e-10 (init = 10)
+    sl3_center:     2808.90772 (init = 2810)
+    sl3_sigma:      11.4162024 (init = 15)
+    sl3_sigma_r:    2.04130058 (init = 1)
+    sl3_fwhm:       13.4575030 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     2.6260e-11 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 250.0 $^\circ$CPeak fitting started at 2021-10-13 10:25:25.815871[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(split_lorentzian, prefix='sl0_')) + Model(split_lorentzian, prefix='sl1_')) + Model(split_lorentzian, prefix='sl2_')) + Model(split_lorentzian, prefix='sl3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 4470
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.01287565
+    reduced chi-square = 2.8676e-05
+    Akaike info crit   = -4866.91472
+    Bayesian info crit = -4792.28080
+##  Warning: uncertainties could not be estimated:
+    sl0_center:     at boundary
+    sl0_sigma:      at boundary
+    sl1_center:     at boundary
+    sl3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.01984375 (init = 0.02546408)
+    exp_decay:     -1684.77919 (init = -1849.817)
+    sl0_amplitude:  4.24145398 (init = 10)
+    sl0_center:     2974.00000 (init = 2990)
+    sl0_sigma:      29.9999999 (init = 15)
+    sl0_sigma_r:    3.37320841 (init = 1)
+    sl0_fwhm:       33.3732083 == 'sl0_sigma+sl0_sigma_r'
+    sl0_height:     0.08090902 == '2*sl0_amplitude/3.1415927/max(0.0000000, (sl0_sigma+sl0_sigma_r))'
+    sl1_amplitude:  7.08783666 (init = 10)
+    sl1_center:     2886.00000 (init = 2870)
+    sl1_sigma:      21.7703142 (init = 15)
+    sl1_sigma_r:    67.6800767 (init = 1)
+    sl1_fwhm:       89.4503909 == 'sl1_sigma+sl1_sigma_r'
+    sl1_height:     0.05044424 == '2*sl1_amplitude/3.1415927/max(0.0000000, (sl1_sigma+sl1_sigma_r))'
+    sl2_amplitude:  0.72100857 (init = 10)
+    sl2_center:     2872.28895 (init = 2860)
+    sl2_sigma:      23.5897127 (init = 15)
+    sl2_sigma_r:    1.91898619 (init = 1)
+    sl2_fwhm:       25.5086989 == 'sl2_sigma+sl2_sigma_r'
+    sl2_height:     0.01799419 == '2*sl2_amplitude/3.1415927/max(0.0000000, (sl2_sigma+sl2_sigma_r))'
+    sl3_amplitude:  5.5511e-10 (init = 10)
+    sl3_center:     2808.77272 (init = 2810)
+    sl3_sigma:      7.55978971 (init = 15)
+    sl3_sigma_r:    2.03761165 (init = 1)
+    sl3_fwhm:       9.59740136 == 'sl3_sigma+sl3_sigma_r'
+    sl3_height:     3.6822e-11 == '2*sl3_amplitude/3.1415927/max(0.0000000, (sl3_sigma+sl3_sigma_r))'Peak fitting for Temperature 50.0 $^\circ$CPeak fitting started at 2021-10-13 10:30:43.090004[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(pvoigt, prefix='pv0_')) + Model(pvoigt, prefix='pv1_')) + Model(pvoigt, prefix='pv2_')) + Model(pvoigt, prefix='pv3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 692
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.05077208
+    reduced chi-square = 1.1308e-04
+    Akaike info crit   = -4226.18662
+    Bayesian info crit = -4151.55269
+##  Warning: uncertainties could not be estimated:
+    pv0_center:     at boundary
+    pv1_amplitude:  at boundary
+    pv2_center:     at boundary
+    pv2_sigma:      at boundary
+    pv2_fraction:   at boundary
+    pv3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.03070598 (init = 0.03583313)
+    exp_decay:     -1623.03309 (init = -1704.075)
+    pv0_amplitude:  7.28947669 (init = 10)
+    pv0_center:     2974.00000 (init = 2990)
+    pv0_sigma:      29.9996670 (init = 15)
+    pv0_fraction:   0.77876039 (init = 0.5)
+    pv0_fwhm:       59.9993340 == '2.0000000*pv0_sigma'
+    pv0_height:     0.08548403 == '(((1-pv0_fraction)*pv0_amplitude)/max(1e-15, (pv0_sigma*sqrt(pi/log(2))))+(pv0_fraction*pv0_amplitude)/max(1e-15, (pi*pv0_sigma)))'
+    pv1_amplitude:  5.5511e-10 (init = 10)
+    pv1_center:     2867.56074 (init = 2860)
+    pv1_sigma:      10.2587013 (init = 15)
+    pv1_fraction:   0.62848723 (init = 0.5)
+    pv1_fwhm:       20.5174027 == '2.0000000*pv1_sigma'
+    pv1_height:     2.0268e-11 == '(((1-pv1_fraction)*pv1_amplitude)/max(1e-15, (pv1_sigma*sqrt(pi/log(2))))+(pv1_fraction*pv1_amplitude)/max(1e-15, (pi*pv1_sigma)))'
+    pv2_amplitude:  6.26495205 (init = 10)
+    pv2_center:     2886.00000 (init = 2870)
+    pv2_sigma:      30.0000000 (init = 15)
+    pv2_fraction:   1.00000000 (init = 0.5)
+    pv2_fwhm:       60.0000000 == '2.0000000*pv2_sigma'
+    pv2_height:     0.06647321 == '(((1-pv2_fraction)*pv2_amplitude)/max(1e-15, (pv2_sigma*sqrt(pi/log(2))))+(pv2_fraction*pv2_amplitude)/max(1e-15, (pi*pv2_sigma)))'
+    pv3_amplitude:  5.5511e-10 (init = 10)
+    pv3_center:     2808.87966 (init = 2810)
+    pv3_sigma:      4.63905944 (init = 15)
+    pv3_fraction:   0.07367821 (init = 0.5)
+    pv3_fwhm:       9.27811889 == '2.0000000*pv3_sigma'
+    pv3_height:     5.4872e-11 == '(((1-pv3_fraction)*pv3_amplitude)/max(1e-15, (pv3_sigma*sqrt(pi/log(2))))+(pv3_fraction*pv3_amplitude)/max(1e-15, (pi*pv3_sigma)))'Peak fitting for Temperature 100.0 $^\circ$CPeak fitting started at 2021-10-13 10:30:43.692656[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(pvoigt, prefix='pv0_')) + Model(pvoigt, prefix='pv1_')) + Model(pvoigt, prefix='pv2_')) + Model(pvoigt, prefix='pv3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 691
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.05161145
+    reduced chi-square = 1.1495e-04
+    Akaike info crit   = -4218.52926
+    Bayesian info crit = -4143.89533
+##  Warning: uncertainties could not be estimated:
+    pv0_center:     at boundary
+    pv0_sigma:      at boundary
+    pv1_amplitude:  at boundary
+    pv2_center:     at boundary
+    pv2_sigma:      at boundary
+    pv2_fraction:   at boundary
+    pv3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.02769930 (init = 0.03344871)
+    exp_decay:     -1697.77860 (init = -1819.163)
+    pv0_amplitude:  5.82979857 (init = 10)
+    pv0_center:     2974.00000 (init = 2990)
+    pv0_sigma:      30.0000000 (init = 15)
+    pv0_fraction:   0.52582161 (init = 0.5)
+    pv0_fwhm:       60.0000000 == '2.0000000*pv0_sigma'
+    pv0_height:     0.07580772 == '(((1-pv0_fraction)*pv0_amplitude)/max(1e-15, (pv0_sigma*sqrt(pi/log(2))))+(pv0_fraction*pv0_amplitude)/max(1e-15, (pi*pv0_sigma)))'
+    pv1_amplitude:  5.5511e-10 (init = 10)
+    pv1_center:     2866.60079 (init = 2860)
+    pv1_sigma:      15.9730241 (init = 15)
+    pv1_fraction:   0.99981070 (init = 0.5)
+    pv1_fwhm:       31.9460481 == '2.0000000*pv1_sigma'
+    pv1_height:     1.1063e-11 == '(((1-pv1_fraction)*pv1_amplitude)/max(1e-15, (pv1_sigma*sqrt(pi/log(2))))+(pv1_fraction*pv1_amplitude)/max(1e-15, (pi*pv1_sigma)))'
+    pv2_amplitude:  6.36848239 (init = 10)
+    pv2_center:     2886.00000 (init = 2870)
+    pv2_sigma:      30.0000000 (init = 15)
+    pv2_fraction:   1.00000000 (init = 0.5)
+    pv2_fwhm:       60.0000000 == '2.0000000*pv2_sigma'
+    pv2_height:     0.06757170 == '(((1-pv2_fraction)*pv2_amplitude)/max(1e-15, (pv2_sigma*sqrt(pi/log(2))))+(pv2_fraction*pv2_amplitude)/max(1e-15, (pi*pv2_sigma)))'
+    pv3_amplitude:  5.5511e-10 (init = 10)
+    pv3_center:     2810.13889 (init = 2810)
+    pv3_sigma:      8.40889672 (init = 15)
+    pv3_fraction:   0.16923238 (init = 0.5)
+    pv3_fwhm:       16.8177934 == '2.0000000*pv3_sigma'
+    pv3_height:     2.9317e-11 == '(((1-pv3_fraction)*pv3_amplitude)/max(1e-15, (pv3_sigma*sqrt(pi/log(2))))+(pv3_fraction*pv3_amplitude)/max(1e-15, (pi*pv3_sigma)))'Peak fitting for Temperature 150.0 $^\circ$CPeak fitting started at 2021-10-13 10:30:44.274999[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(pvoigt, prefix='pv0_')) + Model(pvoigt, prefix='pv1_')) + Model(pvoigt, prefix='pv2_')) + Model(pvoigt, prefix='pv3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 522
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.05184117
+    reduced chi-square = 1.1546e-04
+    Akaike info crit   = -4216.45529
+    Bayesian info crit = -4141.82137
+##  Warning: uncertainties could not be estimated:
+    pv0_center:     at boundary
+    pv0_sigma:      at boundary
+    pv2_center:     at boundary
+    pv2_sigma:      at boundary
+    pv2_fraction:   at boundary
+    pv3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.02358598 (init = 0.02927266)
+    exp_decay:     -1669.58434 (init = -1810.384)
+    pv0_amplitude:  5.35300462 (init = 10)
+    pv0_center:     2974.00000 (init = 2990)
+    pv0_sigma:      30.0000000 (init = 15)
+    pv0_fraction:   0.45180685 (init = 0.5)
+    pv0_fwhm:       60.0000000 == '2.0000000*pv0_sigma'
+    pv0_height:     0.07160734 == '(((1-pv0_fraction)*pv0_amplitude)/max(1e-15, (pv0_sigma*sqrt(pi/log(2))))+(pv0_fraction*pv0_amplitude)/max(1e-15, (pi*pv0_sigma)))'
+    pv1_amplitude:  1.1990e-06 (init = 10)
+    pv1_center:     2864.18028 (init = 2860)
+    pv1_sigma:      12.0488877 (init = 15)
+    pv1_fraction:   0.80613937 (init = 0.5)
+    pv1_fwhm:       24.0977753 == '2.0000000*pv1_sigma'
+    pv1_height:     3.4597e-08 == '(((1-pv1_fraction)*pv1_amplitude)/max(1e-15, (pv1_sigma*sqrt(pi/log(2))))+(pv1_fraction*pv1_amplitude)/max(1e-15, (pi*pv1_sigma)))'
+    pv2_amplitude:  6.35715412 (init = 10)
+    pv2_center:     2886.00000 (init = 2870)
+    pv2_sigma:      30.0000000 (init = 15)
+    pv2_fraction:   1.00000000 (init = 0.5)
+    pv2_fwhm:       60.0000000 == '2.0000000*pv2_sigma'
+    pv2_height:     0.06745150 == '(((1-pv2_fraction)*pv2_amplitude)/max(1e-15, (pv2_sigma*sqrt(pi/log(2))))+(pv2_fraction*pv2_amplitude)/max(1e-15, (pi*pv2_sigma)))'
+    pv3_amplitude:  5.5511e-10 (init = 10)
+    pv3_center:     2808.70289 (init = 2810)
+    pv3_sigma:      5.37620158 (init = 15)
+    pv3_fraction:   0.18594837 (init = 0.5)
+    pv3_fwhm:       10.7524032 == '2.0000000*pv3_sigma'
+    pv3_height:     4.5593e-11 == '(((1-pv3_fraction)*pv3_amplitude)/max(1e-15, (pv3_sigma*sqrt(pi/log(2))))+(pv3_fraction*pv3_amplitude)/max(1e-15, (pi*pv3_sigma)))'Peak fitting for Temperature 200.0 $^\circ$CPeak fitting started at 2021-10-13 10:30:44.765848[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(pvoigt, prefix='pv0_')) + Model(pvoigt, prefix='pv1_')) + Model(pvoigt, prefix='pv2_')) + Model(pvoigt, prefix='pv3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 464
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.05235399
+    reduced chi-square = 1.1660e-04
+    Akaike info crit   = -4211.85829
+    Bayesian info crit = -4137.22436
+##  Warning: uncertainties could not be estimated:
+    pv0_center:     at boundary
+    pv0_sigma:      at boundary
+    pv2_center:     at boundary
+    pv2_sigma:      at boundary
+    pv2_fraction:   at boundary
+    pv3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.02212484 (init = 0.027992)
+    exp_decay:     -1687.81970 (init = -1849.53)
+    pv0_amplitude:  5.03641698 (init = 10)
+    pv0_center:     2974.00000 (init = 2990)
+    pv0_sigma:      30.0000000 (init = 15)
+    pv0_fraction:   0.41913752 (init = 0.5)
+    pv0_fwhm:       60.0000000 == '2.0000000*pv0_sigma'
+    pv0_height:     0.06820275 == '(((1-pv0_fraction)*pv0_amplitude)/max(1e-15, (pv0_sigma*sqrt(pi/log(2))))+(pv0_fraction*pv0_amplitude)/max(1e-15, (pi*pv0_sigma)))'
+    pv1_amplitude:  1.6653e-08 (init = 10)
+    pv1_center:     2863.36615 (init = 2860)
+    pv1_sigma:      9.65856063 (init = 15)
+    pv1_fraction:   0.71300564 (init = 0.5)
+    pv1_fwhm:       19.3171213 == '2.0000000*pv1_sigma'
+    pv1_height:     6.2375e-10 == '(((1-pv1_fraction)*pv1_amplitude)/max(1e-15, (pv1_sigma*sqrt(pi/log(2))))+(pv1_fraction*pv1_amplitude)/max(1e-15, (pi*pv1_sigma)))'
+    pv2_amplitude:  6.36632160 (init = 10)
+    pv2_center:     2886.00000 (init = 2870)
+    pv2_sigma:      30.0000000 (init = 15)
+    pv2_fraction:   0.99999992 (init = 0.5)
+    pv2_fwhm:       59.9999999 == '2.0000000*pv2_sigma'
+    pv2_height:     0.06754877 == '(((1-pv2_fraction)*pv2_amplitude)/max(1e-15, (pv2_sigma*sqrt(pi/log(2))))+(pv2_fraction*pv2_amplitude)/max(1e-15, (pi*pv2_sigma)))'
+    pv3_amplitude:  0.00000000 (init = 10)
+    pv3_center:     2809.21398 (init = 2810)
+    pv3_sigma:      8.08060108 (init = 15)
+    pv3_fraction:   0.18598952 (init = 0.5)
+    pv3_fwhm:       16.1612022 == '2.0000000*pv3_sigma'
+    pv3_height:     0.00000000 == '(((1-pv3_fraction)*pv3_amplitude)/max(1e-15, (pv3_sigma*sqrt(pi/log(2))))+(pv3_fraction*pv3_amplitude)/max(1e-15, (pi*pv3_sigma)))'Peak fitting for Temperature 250.0 $^\circ$CPeak fitting started at 2021-10-13 10:30:45.228210[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(pvoigt, prefix='pv0_')) + Model(pvoigt, prefix='pv1_')) + Model(pvoigt, prefix='pv2_')) + Model(pvoigt, prefix='pv3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 617
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.05260794
+    reduced chi-square = 1.1717e-04
+    Akaike info crit   = -4209.59859
+    Bayesian info crit = -4134.96466
+##  Warning: uncertainties could not be estimated:
+    pv0_center:     at boundary
+    pv0_sigma:      at boundary
+    pv2_center:     at boundary
+    pv2_sigma:      at boundary
+    pv2_fraction:   at boundary
+    pv3_amplitude:  at boundary
+[[Variables]]
+    exp_amplitude:  0.01963538 (init = 0.02546408)
+    exp_decay:     -1670.03248 (init = -1849.817)
+    pv0_amplitude:  4.79247473 (init = 10)
+    pv0_center:     2974.00000 (init = 2990)
+    pv0_sigma:      30.0000000 (init = 15)
+    pv0_fraction:   0.39955109 (init = 0.5)
+    pv0_fwhm:       60.0000000 == '2.0000000*pv0_sigma'
+    pv0_height:     0.06537305 == '(((1-pv0_fraction)*pv0_amplitude)/max(1e-15, (pv0_sigma*sqrt(pi/log(2))))+(pv0_fraction*pv0_amplitude)/max(1e-15, (pi*pv0_sigma)))'
+    pv1_amplitude:  8.8340e-06 (init = 10)
+    pv1_center:     2863.40639 (init = 2860)
+    pv1_sigma:      8.92712036 (init = 15)
+    pv1_fraction:   0.43834535 (init = 0.5)
+    pv1_fwhm:       17.8542407 == '2.0000000*pv1_sigma'
+    pv1_height:     3.9914e-07 == '(((1-pv1_fraction)*pv1_amplitude)/max(1e-15, (pv1_sigma*sqrt(pi/log(2))))+(pv1_fraction*pv1_amplitude)/max(1e-15, (pi*pv1_sigma)))'
+    pv2_amplitude:  6.39072582 (init = 10)
+    pv2_center:     2886.00000 (init = 2870)
+    pv2_sigma:      30.0000000 (init = 15)
+    pv2_fraction:   1.00000000 (init = 0.5)
+    pv2_fwhm:       60.0000000 == '2.0000000*pv2_sigma'
+    pv2_height:     0.06780771 == '(((1-pv2_fraction)*pv2_amplitude)/max(1e-15, (pv2_sigma*sqrt(pi/log(2))))+(pv2_fraction*pv2_amplitude)/max(1e-15, (pi*pv2_sigma)))'
+    pv3_amplitude:  5.5511e-10 (init = 10)
+    pv3_center:     2809.02844 (init = 2810)
+    pv3_sigma:      7.35138272 (init = 15)
+    pv3_fraction:   0.16829122 (init = 0.5)
+    pv3_fwhm:       14.7027654 == '2.0000000*pv3_sigma'
+    pv3_height:     3.3545e-11 == '(((1-pv3_fraction)*pv3_amplitude)/max(1e-15, (pv3_sigma*sqrt(pi/log(2))))+(pv3_fraction*pv3_amplitude)/max(1e-15, (pi*pv3_sigma)))'Peak fitting for Temperature 50.0 $^\circ$CPeak fitting started at 2021-10-13 10:32:16.554917[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(pvoigt, prefix='pv0_')) + Model(pvoigt, prefix='pv1_')) + Model(pvoigt, prefix='pv2_')) + Model(pvoigt, prefix='pv3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 1400
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.00890398
+    reduced chi-square = 1.9831e-05
+    Akaike info crit   = -5039.16264
+    Bayesian info crit = -4964.52871
+##  Warning: uncertainties could not be estimated:
+    pv0_amplitude:  at boundary
+    pv1_center:     at boundary
+    pv1_fraction:   at boundary
+    pv2_sigma:      at boundary
+    pv2_fraction:   at boundary
+    pv3_center:     at boundary
+    pv3_sigma:      at boundary
+    pv3_fraction:   at boundary
+[[Variables]]
+    exp_amplitude:  0.03151496 (init = 0.03583313)
+    exp_decay:     -1638.28351 (init = -1704.075)
+    pv0_amplitude:  5.5511e-10 (init = 10)
+    pv0_center:     3005.31746 (init = 3000)
+    pv0_sigma:      14.3713383 (init = 15)
+    pv0_fraction:   0.72161668 (init = 0.5)
+    pv0_fwhm:       28.7426767 == '2.0000000*pv0_sigma'
+    pv0_height:     1.3923e-11 == '(((1-pv0_fraction)*pv0_amplitude)/max(1e-15, (pv0_sigma*sqrt(pi/log(2))))+(pv0_fraction*pv0_amplitude)/max(1e-15, (pi*pv0_sigma)))'
+    pv1_amplitude:  6.52415542 (init = 10)
+    pv1_center:     2964.00000 (init = 2980)
+    pv1_sigma:      17.6336505 (init = 15)
+    pv1_fraction:   0.99999985 (init = 0.5)
+    pv1_fwhm:       35.2673011 == '2.0000000*pv1_sigma'
+    pv1_height:     0.11776934 == '(((1-pv1_fraction)*pv1_amplitude)/max(1e-15, (pv1_sigma*sqrt(pi/log(2))))+(pv1_fraction*pv1_amplitude)/max(1e-15, (pi*pv1_sigma)))'
+    pv2_amplitude:  3.98852490 (init = 10)
+    pv2_center:     2905.01303 (init = 2910)
+    pv2_sigma:      30.0000000 (init = 15)
+    pv2_fraction:   2.3870e-15 (init = 0.5)
+    pv2_fwhm:       60.0000000 == '2.0000000*pv2_sigma'
+    pv2_height:     0.06244948 == '(((1-pv2_fraction)*pv2_amplitude)/max(1e-15, (pv2_sigma*sqrt(pi/log(2))))+(pv2_fraction*pv2_amplitude)/max(1e-15, (pi*pv2_sigma)))'
+    pv3_amplitude:  1.16859374 (init = 10)
+    pv3_center:     2836.00000 (init = 2820)
+    pv3_sigma:      29.9998428 (init = 15)
+    pv3_fraction:   2.7756e-16 (init = 0.5)
+    pv3_fwhm:       59.9996856 == '2.0000000*pv3_sigma'
+    pv3_height:     0.01829710 == '(((1-pv3_fraction)*pv3_amplitude)/max(1e-15, (pv3_sigma*sqrt(pi/log(2))))+(pv3_fraction*pv3_amplitude)/max(1e-15, (pi*pv3_sigma)))'Peak fitting for Temperature 100.0 $^\circ$CPeak fitting started at 2021-10-13 10:32:17.454272[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(pvoigt, prefix='pv0_')) + Model(pvoigt, prefix='pv1_')) + Model(pvoigt, prefix='pv2_')) + Model(pvoigt, prefix='pv3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 867
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.01026415
+    reduced chi-square = 2.2860e-05
+    Akaike info crit   = -4972.77442
+    Bayesian info crit = -4898.14050
+##  Warning: uncertainties could not be estimated:
+    pv0_amplitude:  at boundary
+    pv1_center:     at boundary
+    pv1_fraction:   at boundary
+    pv2_sigma:      at boundary
+    pv2_fraction:   at boundary
+    pv3_center:     at boundary
+    pv3_sigma:      at boundary
+    pv3_fraction:   at boundary
+[[Variables]]
+    exp_amplitude:  0.02844851 (init = 0.03344871)
+    exp_decay:     -1716.19032 (init = -1819.163)
+    pv0_amplitude:  5.5511e-10 (init = 10)
+    pv0_center:     3005.15434 (init = 3000)
+    pv0_sigma:      14.4368228 (init = 15)
+    pv0_fraction:   0.63474958 (init = 0.5)
+    pv0_fwhm:       28.8736457 == '2.0000000*pv0_sigma'
+    pv0_height:     1.4366e-11 == '(((1-pv0_fraction)*pv0_amplitude)/max(1e-15, (pv0_sigma*sqrt(pi/log(2))))+(pv0_fraction*pv0_amplitude)/max(1e-15, (pi*pv0_sigma)))'
+    pv1_amplitude:  5.59243505 (init = 10)
+    pv1_center:     2964.00000 (init = 2980)
+    pv1_sigma:      16.0575396 (init = 15)
+    pv1_fraction:   1.00000000 (init = 0.5)
+    pv1_fwhm:       32.1150792 == '2.0000000*pv1_sigma'
+    pv1_height:     0.11085929 == '(((1-pv1_fraction)*pv1_amplitude)/max(1e-15, (pv1_sigma*sqrt(pi/log(2))))+(pv1_fraction*pv1_amplitude)/max(1e-15, (pi*pv1_sigma)))'
+    pv2_amplitude:  4.01245154 (init = 10)
+    pv2_center:     2906.34230 (init = 2910)
+    pv2_sigma:      29.9999999 (init = 15)
+    pv2_fraction:   2.2204e-16 (init = 0.5)
+    pv2_fwhm:       59.9999999 == '2.0000000*pv2_sigma'
+    pv2_height:     0.06282411 == '(((1-pv2_fraction)*pv2_amplitude)/max(1e-15, (pv2_sigma*sqrt(pi/log(2))))+(pv2_fraction*pv2_amplitude)/max(1e-15, (pi*pv2_sigma)))'
+    pv3_amplitude:  1.19603893 (init = 10)
+    pv3_center:     2836.00000 (init = 2820)
+    pv3_sigma:      29.9999290 (init = 15)
+    pv3_fraction:   6.7224e-14 (init = 0.5)
+    pv3_fwhm:       59.9998581 == '2.0000000*pv3_sigma'
+    pv3_height:     0.01872677 == '(((1-pv3_fraction)*pv3_amplitude)/max(1e-15, (pv3_sigma*sqrt(pi/log(2))))+(pv3_fraction*pv3_amplitude)/max(1e-15, (pi*pv3_sigma)))'Peak fitting for Temperature 150.0 $^\circ$CPeak fitting started at 2021-10-13 10:32:18.098806[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(pvoigt, prefix='pv0_')) + Model(pvoigt, prefix='pv1_')) + Model(pvoigt, prefix='pv2_')) + Model(pvoigt, prefix='pv3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 774
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.01113334
+    reduced chi-square = 2.4796e-05
+    Akaike info crit   = -4934.81374
+    Bayesian info crit = -4860.17981
+##  Warning: uncertainties could not be estimated:
+    pv0_amplitude:  at boundary
+    pv1_center:     at boundary
+    pv1_fraction:   at boundary
+    pv2_sigma:      at boundary
+    pv2_fraction:   at boundary
+    pv3_center:     at boundary
+    pv3_sigma:      at boundary
+    pv3_fraction:   at boundary
+[[Variables]]
+    exp_amplitude:  0.02429406 (init = 0.02927266)
+    exp_decay:     -1689.97984 (init = -1810.384)
+    pv0_amplitude:  5.5511e-10 (init = 10)
+    pv0_center:     3012.72174 (init = 3000)
+    pv0_sigma:      13.4475316 (init = 15)
+    pv0_fraction:   0.99997622 (init = 0.5)
+    pv0_fwhm:       26.8950631 == '2.0000000*pv0_sigma'
+    pv0_height:     1.3140e-11 == '(((1-pv0_fraction)*pv0_amplitude)/max(1e-15, (pv0_sigma*sqrt(pi/log(2))))+(pv0_fraction*pv0_amplitude)/max(1e-15, (pi*pv0_sigma)))'
+    pv1_amplitude:  5.21084759 (init = 10)
+    pv1_center:     2964.00000 (init = 2980)
+    pv1_sigma:      15.6355780 (init = 15)
+    pv1_fraction:   1.00000000 (init = 0.5)
+    pv1_fwhm:       31.2711560 == '2.0000000*pv1_sigma'
+    pv1_height:     0.10608270 == '(((1-pv1_fraction)*pv1_amplitude)/max(1e-15, (pv1_sigma*sqrt(pi/log(2))))+(pv1_fraction*pv1_amplitude)/max(1e-15, (pi*pv1_sigma)))'
+    pv2_amplitude:  4.01852278 (init = 10)
+    pv2_center:     2907.30382 (init = 2910)
+    pv2_sigma:      29.9999999 (init = 15)
+    pv2_fraction:   1.2167e-12 (init = 0.5)
+    pv2_fwhm:       59.9999998 == '2.0000000*pv2_sigma'
+    pv2_height:     0.06291917 == '(((1-pv2_fraction)*pv2_amplitude)/max(1e-15, (pv2_sigma*sqrt(pi/log(2))))+(pv2_fraction*pv2_amplitude)/max(1e-15, (pi*pv2_sigma)))'
+    pv3_amplitude:  1.21626839 (init = 10)
+    pv3_center:     2836.00000 (init = 2820)
+    pv3_sigma:      29.9999365 (init = 15)
+    pv3_fraction:   4.5364e-13 (init = 0.5)
+    pv3_fwhm:       59.9998730 == '2.0000000*pv3_sigma'
+    pv3_height:     0.01904350 == '(((1-pv3_fraction)*pv3_amplitude)/max(1e-15, (pv3_sigma*sqrt(pi/log(2))))+(pv3_fraction*pv3_amplitude)/max(1e-15, (pi*pv3_sigma)))'Peak fitting for Temperature 200.0 $^\circ$CPeak fitting started at 2021-10-13 10:32:18.676396[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(pvoigt, prefix='pv0_')) + Model(pvoigt, prefix='pv1_')) + Model(pvoigt, prefix='pv2_')) + Model(pvoigt, prefix='pv3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 905
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.01197490
+    reduced chi-square = 2.6670e-05
+    Akaike info crit   = -4900.78397
+    Bayesian info crit = -4826.15005
+##  Warning: uncertainties could not be estimated:
+    pv0_amplitude:  at boundary
+    pv1_center:     at boundary
+    pv1_fraction:   at boundary
+    pv2_sigma:      at boundary
+    pv2_fraction:   at boundary
+    pv3_center:     at boundary
+    pv3_sigma:      at boundary
+    pv3_fraction:   at boundary
+[[Variables]]
+    exp_amplitude:  0.02283131 (init = 0.027992)
+    exp_decay:     -1710.22796 (init = -1849.53)
+    pv0_amplitude:  5.5511e-10 (init = 10)
+    pv0_center:     3008.80340 (init = 3000)
+    pv0_sigma:      25.2945543 (init = 15)
+    pv0_fraction:   0.82089010 (init = 0.5)
+    pv0_fwhm:       50.5891086 == '2.0000000*pv0_sigma'
+    pv0_height:     7.5807e-12 == '(((1-pv0_fraction)*pv0_amplitude)/max(1e-15, (pv0_sigma*sqrt(pi/log(2))))+(pv0_fraction*pv0_amplitude)/max(1e-15, (pi*pv0_sigma)))'
+    pv1_amplitude:  4.89343940 (init = 10)
+    pv1_center:     2964.00000 (init = 2980)
+    pv1_sigma:      15.3800997 (init = 15)
+    pv1_fraction:   1.00000000 (init = 0.5)
+    pv1_fwhm:       30.7601995 == '2.0000000*pv1_sigma'
+    pv1_height:     0.10127569 == '(((1-pv1_fraction)*pv1_amplitude)/max(1e-15, (pv1_sigma*sqrt(pi/log(2))))+(pv1_fraction*pv1_amplitude)/max(1e-15, (pi*pv1_sigma)))'
+    pv2_amplitude:  4.06640551 (init = 10)
+    pv2_center:     2908.26732 (init = 2910)
+    pv2_sigma:      29.9999989 (init = 15)
+    pv2_fraction:   2.3870e-15 (init = 0.5)
+    pv2_fwhm:       59.9999979 == '2.0000000*pv2_sigma'
+    pv2_height:     0.06366888 == '(((1-pv2_fraction)*pv2_amplitude)/max(1e-15, (pv2_sigma*sqrt(pi/log(2))))+(pv2_fraction*pv2_amplitude)/max(1e-15, (pi*pv2_sigma)))'
+    pv3_amplitude:  1.23196598 (init = 10)
+    pv3_center:     2836.00000 (init = 2820)
+    pv3_sigma:      29.9999297 (init = 15)
+    pv3_fraction:   1.2268e-14 (init = 0.5)
+    pv3_fwhm:       59.9998594 == '2.0000000*pv3_sigma'
+    pv3_height:     0.01928929 == '(((1-pv3_fraction)*pv3_amplitude)/max(1e-15, (pv3_sigma*sqrt(pi/log(2))))+(pv3_fraction*pv3_amplitude)/max(1e-15, (pi*pv3_sigma)))'Peak fitting for Temperature 250.0 $^\circ$CPeak fitting started at 2021-10-13 10:32:19.314136[[Model]]
+    ((((Model(exponential, prefix='exp_') + Model(pvoigt, prefix='pv0_')) + Model(pvoigt, prefix='pv1_')) + Model(pvoigt, prefix='pv2_')) + Model(pvoigt, prefix='pv3_'))
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 848
+    # data points      = 467
+    # variables        = 18
+    chi-square         = 0.01270137
+    reduced chi-square = 2.8288e-05
+    Akaike info crit   = -4873.27905
+    Bayesian info crit = -4798.64513
+##  Warning: uncertainties could not be estimated:
+    pv0_amplitude:  at boundary
+    pv1_center:     at boundary
+    pv1_fraction:   at boundary
+    pv2_sigma:      at boundary
+    pv2_fraction:   at boundary
+    pv3_center:     at boundary
+    pv3_sigma:      at boundary
+    pv3_fraction:   at boundary
+[[Variables]]
+    exp_amplitude:  0.02031317 (init = 0.02546408)
+    exp_decay:     -1693.98152 (init = -1849.817)
+    pv0_amplitude:  5.5511e-10 (init = 10)
+    pv0_center:     3009.13924 (init = 3000)
+    pv0_sigma:      25.4555485 (init = 15)
+    pv0_fraction:   0.72544420 (init = 0.5)
+    pv0_fwhm:       50.9110971 == '2.0000000*pv0_sigma'
+    pv0_height:     7.8479e-12 == '(((1-pv0_fraction)*pv0_amplitude)/max(1e-15, (pv0_sigma*sqrt(pi/log(2))))+(pv0_fraction*pv0_amplitude)/max(1e-15, (pi*pv0_sigma)))'
+    pv1_amplitude:  4.65039136 (init = 10)
+    pv1_center:     2964.00000 (init = 2980)
+    pv1_sigma:      15.3121372 (init = 15)
+    pv1_fraction:   1.00000000 (init = 0.5)
+    pv1_fwhm:       30.6242745 == '2.0000000*pv1_sigma'
+    pv1_height:     0.09667269 == '(((1-pv1_fraction)*pv1_amplitude)/max(1e-15, (pv1_sigma*sqrt(pi/log(2))))+(pv1_fraction*pv1_amplitude)/max(1e-15, (pi*pv1_sigma)))'
+    pv2_amplitude:  4.10806071 (init = 10)
+    pv2_center:     2909.10024 (init = 2910)
+    pv2_sigma:      29.9999999 (init = 15)
+    pv2_fraction:   2.4536e-14 (init = 0.5)
+    pv2_fwhm:       59.9999998 == '2.0000000*pv2_sigma'
+    pv2_height:     0.06432109 == '(((1-pv2_fraction)*pv2_amplitude)/max(1e-15, (pv2_sigma*sqrt(pi/log(2))))+(pv2_fraction*pv2_amplitude)/max(1e-15, (pi*pv2_sigma)))'
+    pv3_amplitude:  1.26450129 (init = 10)
+    pv3_center:     2836.00000 (init = 2820)
+    pv3_sigma:      29.9999508 (init = 15)
+    pv3_fraction:   7.4940e-15 (init = 0.5)
+    pv3_fwhm:       59.9999017 == '2.0000000*pv3_sigma'
+    pv3_height:     0.01979869 == '(((1-pv3_fraction)*pv3_amplitude)/max(1e-15, (pv3_sigma*sqrt(pi/log(2))))+(pv3_fraction*pv3_amplitude)/max(1e-15, (pi*pv3_sigma)))'
