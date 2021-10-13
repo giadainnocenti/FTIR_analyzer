@@ -3,7 +3,7 @@ ________________________________________________________________________________
 __author__ = Dr. *Giada Innocenti* \
 __credits__ = Dr. *Juliana Silva Alves Carneiro*, *Bryan J. Hare* for reporting some bugs.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-*Flaherty's Laboratory* for coding the OG PSD part of this script.\
+[*Flaherty's Laboratory*](https://publish.illinois.edu/flahertycatalysis/) for coding the OG PSD part of this script.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [*NIRPY Research*](https://nirpyresearch.com) for the MSC code.\
 __email__ = giadainnocenti.gi@gmail.com \
