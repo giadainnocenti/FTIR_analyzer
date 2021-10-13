@@ -10,7 +10,7 @@ __email__ = giadainnocenti.gi@gmail.com \
 __Python__ = 3.8.5
 __________________________________________________________________________________
 
-This script is able to plot, and analyze FTIR data. It relies on [scipy](https://www.scipy.org/scipylib/index.html), [lmfit](https://lmfit.github.io/lmfit-py/intro.html), [pymcr](https://pages.nist.gov/pyMCR/). 
+This script is able to plot, and analyze Fourier Transform Infrared Spectroscopy (FTIR) data. It relies on [scipy](https://www.scipy.org/scipylib/index.html), [lmfit](https://lmfit.github.io/lmfit-py/intro.html), [pymcr](https://pages.nist.gov/pyMCR/). 
 
 ### What can FTIR analyzer do?
 1. Read and subtract the CSV catalyst spectrum from the catalyst + molecule and plot the results.
