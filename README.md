@@ -21,7 +21,7 @@ This script is able to plot, and analyze Fourier Transform Infrared Spectroscopy
 6. Find the peaks on your spectrum and plot their wavenumber on the figure
 7. Subtract a specific temperature or time spectrum from other spectra of your choice and save the results in CSV files.
 8. Calculate the first and second derivative of your spectra.
-9. Deconvolute your peaks of interest by using many different distribution shapes or combination of them and it will plot the obtained trends with respect to the time or temperature.
+9. Deconvolute your peaks of interest by using many different distribution shapes or combination of them and it will plot the obtained trends with respect to the time or temperature. CSV file will be generated containing both the integrations data and the IR data to reproduce the plot using another software (Origin, excel ...).
 10. Analyze excitation emission spectroscopy IR experiments that use a synusoidal perturbation.
 
 A detailed Explanation of the script and of all the keys is reported into the jupyter notebook.
