@@ -39,7 +39,7 @@ Some packages like *lmfit* and *pymcr* needs to be installed for the code to run
 ```python
 ModuleNotFoundError: No module named 'pymcr'
 ```
-If you get this error with **any** package you can easily fix it or preventing by adding a line in the jupyter notebook, and writing in it the following command:
+If you get this error with **any** package you can easily fix or prevent it by adding a line in the jupyter notebook, and writing in it the following command:
 ```python
 !pip install pymcr
 ```
