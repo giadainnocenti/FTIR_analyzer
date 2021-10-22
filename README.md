@@ -34,7 +34,7 @@ A detailed Explanation of the script and of all the keys is reported into the ju
 2. Adding the possibility of analyzing MES-PSD data that use a non synusoidal perturbation.
 3. Converting the Jupyter Notebook into a web-app working on a local host.
 
-### ModuleNotFoundError - Missing packages on your machine
+### ModuleNotFoundError - Missing module on your machine
 Some packages like *lmfit* and *pymcr* needs to be installed for the code to run. If you try to run the code you'll get a message like this one:
 ```python
 ModuleNotFoundError: No module named 'pymcr'
