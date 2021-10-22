@@ -33,3 +33,14 @@ A detailed Explanation of the script and of all the keys is reported into the ju
 1. it would be nice being able to implement the atmospheric suppression into the code. It should be fairly easy to code. It would be necessary to get the H<sub>2</sub>O vapor and the CO<sub>2</sub> vapor spectra from the NIST. Make sure that the number of data points for those spectra is the same than the experimental spectra. Convolute the CO<sub>2</sub> and H<sub>2</sub>O spectra by using a linear combination. Minimize such convolution and then removed the minimized H<sub>2</sub>O and CO<sub>2</sub> spectrum. I think this is also what omnic does when it remove H<sub>2</sub>O and CO<sub>2</sub> with atmospheric suppression.
 2. Adding the possibility of analyzing MES-PSD data that use a non synusoidal perturbation.
 3. Converting the Jupyter Notebook into a web-app working on a local host.
+
+#### How to handle the error for missing packages
+Some packages like *lmfit* and *pymcr* needs to be installed for the code to run. If you try to run the code you'll get a message like this one:
+```python
+ModuleNotFoundError: No module named 'pymcr'
+```
+If you get this error with **any** package you can easily fix it or preventing by adding a line in the jupyter notebook, and writing in it the following command:
+```python
+!pip install pymcr
+```
+If the name of the package is differente you just need to replace pymcr with the name of the package you are missing. Once the cell run, delete it otherwise you are going through the installation step every single time. After deleting the cell, you are good to go!
