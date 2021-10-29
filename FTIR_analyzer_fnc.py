@@ -754,7 +754,7 @@ time_counter = 0
 def peak_fitting(wavenumber, absorbance, peaks, peak_shape=None, baseline_type=None, peak_center_min = None, peak_center_max = None, area_min = None, area_max = None, sigma_min = None, sigma_max = None, variable_OI= None, time_list=None,UOM = None, resolution = resolution):
     global time_counter 
     log_file = open('fit_log.txt', mode='a')
-    print(f'Peak fitting for {variable_OI} {time_list[time_counter]} {UOM}')
+    print(f'Peak deconvolution {time_counter+1} of {len(time_list)+1}')
     print(f'Peak fitting started at {datetime.now()}')
     log_file.write(f'Peak fitting for {variable_OI} {time_list[time_counter]} {UOM}')
     log_file.write(f'Peak fitting started at {datetime.now()}')
@@ -1063,7 +1063,10 @@ def period_average(data,time_per_period,time_per_scan):
         lb=i*scans_per_period+sgn*offset
         ub=(i+1)*scans_per_period+sgn*offset
         intrvl=range(lb,ub)
+        print(np.shape(intrvl))
+        print(np.shape(data))
         avg_data+=data[:,intrvl]
+        print(np.shape(avg_data))
 
     avg_data/=number_periods
     return avg_data
