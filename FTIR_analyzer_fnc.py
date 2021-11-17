@@ -10,9 +10,11 @@ __Python__ = 3.8.5
 #resolution used for every experiment
 resolution = 4
 # type of computer
-def computer(computer_type):
+def computer(computer_type,wdrive = None):
     if computer_type.casefold() == 'windows':
-        computer_root='C:\\'
+        if not wdrive:
+            wdrive = 'C'
+        computer_root=f'{wdrive}:\\'
     else:
         computer_root='/'
     return(computer_root)

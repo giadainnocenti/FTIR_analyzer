@@ -1,7 +1,7 @@
 # FTIR_analyzer
 ___________________________________________________________________________________
 __author__ = Dr. *Giada Innocenti* \
-__credits__ = Dr. *Juliana Silva Alves Carneiro*, *Bryan J. Hare* for reporting some bugs.\
+__credits__ = Dr. *Juliana Silva Alves Carneiro*, *Bryan J. Hare*, *Olivia C. Williams* for reporting some bugs.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [*Flaherty's Laboratory*](https://publish.illinois.edu/flahertycatalysis/) for coding the OG PSD part of this script.\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -44,3 +44,6 @@ If you get this error with **any** package you can easily fix or prevent it by a
 !pip install pymcr
 ```
 If the name of the package is differente you just need to replace pymcr with the name of the package you are missing. Once the cell run, delete it otherwise you are going through the installation step every single time. After deleting the cell, you are good to go!
+
+### Parser Error  - while trying to read your files
+This error is most likely caused by the fact that you have your files in OneDrive and your computer does not have enough resources to pull all the data. Move the files to a folder outside of OneDrive, that should fix the problem.
