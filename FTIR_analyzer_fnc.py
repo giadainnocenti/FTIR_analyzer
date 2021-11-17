@@ -1063,10 +1063,8 @@ def period_average(data,time_per_period,time_per_scan):
         lb=i*scans_per_period+sgn*offset
         ub=(i+1)*scans_per_period+sgn*offset
         intrvl=range(lb,ub)
-        print(np.shape(intrvl))
-        print(np.shape(data))
         avg_data+=data[:,intrvl]
-        print(np.shape(avg_data))
+ 
 
     avg_data/=number_periods
     return avg_data
